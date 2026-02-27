@@ -1,0 +1,3 @@
+data/raw_data.csv
+scripts/clean_raw_data.py
+paper.tex

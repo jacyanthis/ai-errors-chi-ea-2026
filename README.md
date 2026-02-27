@@ -1,0 +1,1 @@
+This repository contains the data and analysis code for the CHI EA 2026 paper: "Effects of Generative AI Errors on User Reliance Across Task Difficulty" (DOI: 10.1145/3772363.3798463).

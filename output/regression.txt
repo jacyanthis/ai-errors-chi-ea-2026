@@ -1,0 +1,371 @@
+
+====================================================================================================
+REGRESSION RUN: FULL SAMPLE
+====================================================================================================
+
+                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:                      y   R-squared:                        0.1497
+Estimator:              RandomEffects   R-squared (Between):              0.0630
+No. Observations:                4616   R-squared (Within):               0.1601
+Date:                Fri, Feb 27 2026   R-squared (Overall):              0.1169
+Time:                        10:43:33   Log-likelihood                    2816.4
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      20.132
+Entities:                         577   P-value                           0.0000
+Avg Obs:                       8.0000   Distribution:                 F(40,4575)
+Min Obs:                       8.0000                                           
+Max Obs:                       8.0000   F-statistic (robust):             11.027
+                                        P-value                           0.0000
+Time periods:                       8   Distribution:                 F(40,4575)
+Avg Obs:                       577.00                                           
+Min Obs:                       577.00                                           
+Max Obs:                       577.00                                           
+                                                                                
+                                    Parameter Estimates                                    
+===========================================================================================
+                         Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------
+const                       0.3322     0.0381     8.7161     0.0000      0.2575      0.4070
+monotonicity                0.0196     0.0196     1.0001     0.3173     -0.0189      0.0582
+num_errors_3               -0.0163     0.0161    -1.0091     0.3130     -0.0479      0.0153
+num_errors_5               -0.0500     0.0171    -2.9258     0.0035     -0.0835     -0.0165
+num_errors_3_monotonic     -0.0263     0.0250    -1.0530     0.2924     -0.0754      0.0227
+num_errors_5_monotonic     -0.0022     0.0260    -0.0858     0.9316     -0.0531      0.0487
+age                         0.0002     0.0004     0.4638     0.6428     -0.0005      0.0009
+education_Post-grad         0.0048     0.0150     0.3211     0.7481     -0.0245      0.0341
+education_Undergrad        -0.0093     0.0113    -0.8223     0.4109     -0.0315      0.0129
+income_$50-100k         -9.786e-07     0.0122 -8.051e-05     0.9999     -0.0238      0.0238
+income_>$100k            4.229e-05     0.0135     0.0031     0.9975     -0.0265      0.0265
+pre_pe                      0.0032     0.0041     0.7732     0.4394     -0.0049      0.0112
+pre_ee                      0.0017     0.0053     0.3209     0.7483     -0.0087      0.0121
+gender_Man                 -0.0109     0.0103    -1.0620     0.2883     -0.0311      0.0093
+gender_Other               -0.0146     0.0358    -0.4081     0.6832     -0.0848      0.0556
+race_Asian                  0.0456     0.0177     2.5716     0.0102      0.0108      0.0804
+race_Black                  0.0127     0.0165     0.7717     0.4404     -0.0196      0.0451
+race_Hispanic               0.0108     0.0155     0.6975     0.4855     -0.0195      0.0411
+race_Native_American       -0.0147     0.0426    -0.3450     0.7301     -0.0982      0.0688
+race_Other                  0.0524     0.0271     1.9354     0.0530     -0.0007      0.1056
+religion_Agnostic          -0.0005     0.0148    -0.0369     0.9705     -0.0296      0.0286
+religion_Atheist            0.0159     0.0189     0.8381     0.4020     -0.0212      0.0530
+religion_Jewish             0.0009     0.0304     0.0297     0.9763     -0.0586      0.0604
+religion_Muslim             0.0122     0.0375     0.3258     0.7446     -0.0613      0.0857
+religion_Nothing           -0.0012     0.0162    -0.0729     0.9419     -0.0330      0.0306
+religion_Other              0.0120     0.0214     0.5623     0.5739     -0.0299      0.0539
+religion_Roman_Catholic     0.0119     0.0157     0.7577     0.4487     -0.0189      0.0427
+difficulty_2               -0.0706     0.0077    -9.1496     0.0000     -0.0857     -0.0555
+difficulty_3               -0.0053     0.0063    -0.8470     0.3971     -0.0177      0.0070
+difficulty_4               -0.0656     0.0079    -8.3020     0.0000     -0.0811     -0.0501
+difficulty_5               -0.0828     0.0081    -10.188     0.0000     -0.0988     -0.0669
+difficulty_6               -0.0846     0.0079    -10.765     0.0000     -0.1000     -0.0692
+difficulty_7               -0.1432     0.0098    -14.548     0.0000     -0.1625     -0.1239
+difficulty_8               -0.1447     0.0095    -15.286     0.0000     -0.1633     -0.1262
+display_order_2            -0.0150     0.0082    -1.8351     0.0666     -0.0310      0.0010
+display_order_3            -0.0352     0.0078    -4.4924     0.0000     -0.0506     -0.0198
+display_order_4            -0.0445     0.0078    -5.6754     0.0000     -0.0598     -0.0291
+display_order_5            -0.0434     0.0083    -5.2126     0.0000     -0.0597     -0.0271
+display_order_6            -0.0504     0.0086    -5.8537     0.0000     -0.0673     -0.0335
+display_order_7            -0.0597     0.0083    -7.2186     0.0000     -0.0759     -0.0435
+display_order_8            -0.0505     0.0086    -5.8845     0.0000     -0.0673     -0.0337
+===========================================================================================
+
+----------------------------------------------------------------------------------------------------
+HYPOTHESIS TESTING (directional, one-tailed)
+----------------------------------------------------------------------------------------------------
+
+Raw sample means by condition:
+  μ_1nm=$0.2580, μ_1m=$0.2804; μ_3nm=$0.2428, μ_3m=$0.2378; μ_5nm=$0.2046, μ_5m=$0.2240
+
+Sample sizes per cell (nm, m):
+  1-error=(728,672), 3-error=(760,832), 5-error=(856,768)
+Hypothesis weights (sample-share): w1=0.303, w3=0.345, w5=0.352
+
+H1: More errors reduce WTP ("<")
+  μ_1=$0.2687, μ_3=$0.2402, μ_5=$0.2137
+  H1a: μ_3-μ_1 = $-0.0292, SE=0.0124, t=-2.363, p=0.0091
+  H1b: μ_5-μ_3 = $-0.0220, SE=0.0115, t=-1.918, p=0.0276
+  Result: SUPPORTED
+
+H2: Non-monotonic errors reduce WTP (μ_m - μ_nm > 0)
+  μ_nm(weighted)=$0.2340, μ_m(weighted)=$0.2459
+  Diff=$0.0098, SE=0.0099, t=0.991, p=0.1610
+  Result: NOT SUPPORTED
+
+H3: Non-monotonic penalty larger for multiple errors (">")
+  Advantage(1)=$0.0224, Advantage(3)=$-0.0050, Advantage(5)=$0.0194, Weighted(3,5)=$0.0073
+  Excess advantage=$-0.0142, SE=0.0228, t=-0.621, p=0.7326
+  Result: NOT SUPPORTED
+
+H4a: 3 non-monotonic vs 5 monotonic ("< $0.05")
+  Δ=μ_3nm - μ_5m = $0.0163, SE=0.0157, t=-2.140, p=0.0162
+  Result: SUPPORTED
+
+H4b: 1 non-monotonic vs 3 monotonic ("< $0.05")
+  Δ=μ_1nm - μ_3m = $0.0230, SE=0.0165, t=-1.641, p=0.0504
+  Result: NOT SUPPORTED
+
+====================================================================================================
+REGRESSION RUN: SELF-REPORTED DIFFICULTY (outcome)
+(Excluding task difficulty covariates)
+(Outcome variable: difficulty_score)
+====================================================================================================
+
+                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:                      y   R-squared:                        0.0238
+Estimator:              RandomEffects   R-squared (Between):              0.1454
+No. Observations:                4616   R-squared (Within):               0.0047
+Date:                Fri, Feb 27 2026   R-squared (Overall):              0.0572
+Time:                        10:43:33   Log-likelihood                   -7276.1
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      3.3914
+Entities:                         577   P-value                           0.0000
+Avg Obs:                       8.0000   Distribution:                 F(33,4582)
+Min Obs:                       8.0000                                           
+Max Obs:                       8.0000   F-statistic (robust):             4.0043
+                                        P-value                           0.0000
+Time periods:                       8   Distribution:                 F(33,4582)
+Avg Obs:                       577.00                                           
+Min Obs:                       577.00                                           
+Max Obs:                       577.00                                           
+                                                                                
+                                    Parameter Estimates                                    
+===========================================================================================
+                         Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------
+const                       4.0736     0.3009     13.538     0.0000      3.4837      4.6635
+monotonicity               -0.1301     0.1265    -1.0290     0.3035     -0.3781      0.1178
+num_errors_3               -0.3131     0.1164    -2.6907     0.0072     -0.5412     -0.0850
+num_errors_5               -0.4454     0.1183    -3.7646     0.0002     -0.6774     -0.2135
+num_errors_3_monotonic      0.1241     0.1641     0.7563     0.4495     -0.1977      0.4459
+num_errors_5_monotonic      0.0239     0.1745     0.1371     0.8909     -0.3181      0.3660
+age                         0.0035     0.0026     1.3306     0.1834     -0.0016      0.0085
+education_Post-grad         0.3447     0.0875     3.9371     0.0001      0.1730      0.5163
+education_Undergrad         0.0518     0.0796     0.6507     0.5153     -0.1043      0.2079
+income_$50-100k             0.1731     0.0867     1.9960     0.0460      0.0031      0.3430
+income_>$100k               0.1206     0.0867     1.3905     0.1644     -0.0494      0.2906
+pre_pe                     -0.0116     0.0298    -0.3911     0.6958     -0.0700      0.0467
+pre_ee                      0.1609     0.0407     3.9574     0.0001      0.0812      0.2407
+gender_Man                 -0.0700     0.0716    -0.9777     0.3283     -0.2104      0.0704
+gender_Other                0.1886     0.2860     0.6595     0.5096     -0.3721      0.7493
+race_Asian                  0.3322     0.1137     2.9220     0.0035      0.1093      0.5550
+race_Black                 -0.2086     0.1115    -1.8704     0.0615     -0.4272      0.0100
+race_Hispanic              -0.0255     0.1035    -0.2461     0.8056     -0.2284      0.1775
+race_Native_American       -0.2407     0.3333    -0.7219     0.4704     -0.8942      0.4129
+race_Other                  0.0403     0.2394     0.1683     0.8664     -0.4290      0.5095
+religion_Agnostic          -0.0425     0.1077    -0.3945     0.6933     -0.2537      0.1687
+religion_Atheist            0.1497     0.1291     1.1591     0.2465     -0.1035      0.4028
+religion_Jewish             0.3478     0.2027     1.7163     0.0862     -0.0495      0.7451
+religion_Muslim            -0.1248     0.3323    -0.3757     0.7072     -0.7762      0.5266
+religion_Nothing            0.1106     0.1113     0.9942     0.3202     -0.1075      0.3287
+religion_Other              0.0166     0.1318     0.1259     0.8998     -0.2418      0.2750
+religion_Roman_Catholic     0.0491     0.1002     0.4899     0.6242     -0.1474      0.2456
+display_order_2            -0.1768     0.0642    -2.7537     0.0059     -0.3026     -0.0509
+display_order_3            -0.1542     0.0630    -2.4487     0.0144     -0.2777     -0.0308
+display_order_4            -0.2253     0.0664    -3.3912     0.0007     -0.3556     -0.0951
+display_order_5            -0.1993     0.0686    -2.9045     0.0037     -0.3338     -0.0648
+display_order_6            -0.2686     0.0672    -3.9988     0.0001     -0.4003     -0.1369
+display_order_7            -0.2184     0.0636    -3.4313     0.0006     -0.3431     -0.0936
+display_order_8            -0.1976     0.0664    -2.9751     0.0029     -0.3278     -0.0674
+===========================================================================================
+
+----------------------------------------------------------------------------------------------------
+HYPOTHESIS TESTING (directional, one-tailed)
+----------------------------------------------------------------------------------------------------
+
+Condition means (at reference levels of covariates):
+  μ_1nm=$4.0736, μ_1m=$3.9435; μ_3nm=$3.7605, μ_3m=$3.7545; μ_5nm=$3.6282, μ_5m=$3.5220
+
+Sample sizes per cell (nm, m):
+  1-error=(728,672), 3-error=(760,832), 5-error=(856,768)
+Hypothesis weights (sample-share): w1=0.303, w3=0.345, w5=0.352
+
+H1: More errors reduce WTP ("<")
+  μ_1=$4.0111, μ_3=$3.7574, μ_5=$3.5780
+  H1a: μ_3-μ_1 = $-0.2537, SE=0.0799, t=-3.177, p=0.0007
+  H1b: μ_5-μ_3 = $-0.1795, SE=0.0792, t=-2.267, p=0.0117
+  Result: SUPPORTED
+
+H2: Non-monotonic errors reduce WTP (μ_m - μ_nm > 0)
+  μ_nm(weighted)=$3.8089, μ_m(weighted)=$3.7300
+  Diff=$-0.0789, SE=0.0677, t=-1.165, p=0.8780
+  Result: NOT SUPPORTED
+
+H3: Non-monotonic penalty larger for multiple errors (">")
+  Advantage(1)=$-0.1301, Advantage(3)=$-0.0060, Advantage(5)=$-0.1062, Weighted(3,5)=$-0.0566
+  Excess advantage=$0.0735, SE=0.1494, t=0.492, p=0.3113
+  Result: NOT SUPPORTED
+
+H4a: 3 non-monotonic vs 5 monotonic (with $0.05 margin)
+  Δ=μ_3nm - μ_5m = $0.2386, SE=0.1189, t=1.586, p=0.9436
+  Result: NOT SUPPORTED
+
+H4b: 1 non-monotonic vs 3 monotonic (with $0.05 margin)
+  Δ=μ_1nm - μ_3m = $0.3191, SE=0.1169, t=2.301, p=0.9893
+  Result: NOT SUPPORTED
+
+====================================================================================================
+PARTICIPANT-LEVEL REGRESSION: PE PRE-POST DIFFERENCE
+(Excluding pre_pe covariate)
+(Outcome variable: pe_diff)
+====================================================================================================
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                pe_diff   R-squared:                       0.047
+Model:                            OLS   Adj. R-squared:                  0.003
+Method:                 Least Squares   F-statistic:                    0.9115
+Date:                Fri, 27 Feb 2026   Prob (F-statistic):              0.590
+Time:                        10:43:33   Log-Likelihood:                -510.29
+No. Observations:                 577   AIC:                             1073.
+Df Residuals:                     551   BIC:                             1186.
+Df Model:                          25                                         
+Covariance Type:                  HC3                                         
+===========================================================================================
+                              coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -0.0167      0.183     -0.092      0.927      -0.374       0.341
+monotonicity               -0.0808      0.094     -0.861      0.389      -0.265       0.103
+num_errors_3               -0.1216      0.088     -1.390      0.165      -0.293       0.050
+num_errors_5               -0.2390      0.097     -2.455      0.014      -0.430      -0.048
+num_errors_3_monotonic      0.2478      0.124      1.992      0.046       0.004       0.492
+num_errors_5_monotonic      0.2747      0.136      2.024      0.043       0.009       0.541
+age                     -4.913e-05      0.002     -0.027      0.979      -0.004       0.004
+education_Post-grad        -0.0128      0.073     -0.175      0.861      -0.157       0.131
+education_Undergrad        -0.0030      0.062     -0.048      0.961      -0.125       0.119
+income_$50-100k            -0.0219      0.063     -0.345      0.730      -0.146       0.102
+income_>$100k               0.0039      0.067      0.058      0.954      -0.128       0.136
+pre_ee                      0.0166      0.023      0.707      0.479      -0.029       0.063
+gender_Man                 -0.0272      0.055     -0.492      0.623      -0.136       0.081
+gender_Other                0.2228      0.212      1.052      0.293      -0.192       0.638
+race_Asian                  0.0151      0.091      0.165      0.869      -0.164       0.194
+race_Black                  0.0200      0.074      0.272      0.786      -0.124       0.164
+race_Hispanic              -0.0358      0.074     -0.481      0.630      -0.182       0.110
+race_Native_American       -0.5270      0.522     -1.010      0.313      -1.550       0.496
+race_Other                  0.0353      0.104      0.340      0.734      -0.168       0.239
+religion_Agnostic          -0.0116      0.070     -0.165      0.869      -0.149       0.126
+religion_Atheist           -0.1293      0.079     -1.634      0.102      -0.284       0.026
+religion_Jewish             0.0861      0.193      0.447      0.655      -0.291       0.464
+religion_Muslim            -0.0732      0.166     -0.440      0.660      -0.399       0.253
+religion_Nothing           -0.0045      0.103     -0.043      0.965      -0.207       0.198
+religion_Other             -0.0089      0.126     -0.070      0.944      -0.257       0.239
+religion_Roman_Catholic     0.0277      0.068      0.405      0.686      -0.107       0.162
+==============================================================================
+Omnibus:                      333.966   Durbin-Watson:                   1.913
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5305.171
+Skew:                          -2.211   Prob(JB):                         0.00
+Kurtosis:                      17.181   Cond. No.                         544.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+----------------------------------------------------------------------------------------------------
+HYPOTHESIS TESTING (directional, one-tailed)
+----------------------------------------------------------------------------------------------------
+
+Raw sample means by condition:
+  μ_1nm=0.0330, μ_1m=-0.0446; μ_3nm=-0.0974, μ_3m=0.0793; μ_5nm=-0.2009, μ_5m=-0.0182
+
+Sample sizes per cell (nm, m):
+  1-error=(91,84), 3-error=(95,104), 5-error=(107,96)
+
+H1: More errors reduce outcome ("<")
+  μ_1=-0.0058, μ_3=-0.0090, μ_5=-0.1096
+  H1a: μ_3-μ_1 = 0.0022, SE=0.0610, t=0.037, p=0.5146
+  H1b: μ_5-μ_3 = -0.1039, SE=0.0626, t=-1.659, p=0.0488
+  Result: NOT SUPPORTED
+
+H2: Non-monotonic errors reduce outcome more (μ_m - μ_nm > 0)
+  μ_nm(weighted)=-0.0884, μ_m(weighted)=0.0055
+  Diff=0.0934, SE=0.0518, t=1.803, p=0.0360
+  Result: SUPPORTED
+
+H3: Non-monotonic penalty larger for multiple errors (">")
+  Advantage(1)=-0.0776, Advantage(3)=0.1767, Advantage(5)=0.1827, Weighted(3,5)=0.1797
+  Excess advantage=0.2613, SE=0.1124, t=2.323, p=0.0103
+  Result: SUPPORTED
+
+
+====================================================================================================
+PARTICIPANT-LEVEL REGRESSION: EE PRE-POST DIFFERENCE
+(Excluding pre_ee covariate)
+(Outcome variable: ee_diff)
+====================================================================================================
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                ee_diff   R-squared:                       0.093
+Model:                            OLS   Adj. R-squared:                  0.052
+Method:                 Least Squares   F-statistic:                     2.472
+Date:                Fri, 27 Feb 2026   Prob (F-statistic):           0.000112
+Time:                        10:43:33   Log-Likelihood:                -694.36
+No. Observations:                 577   AIC:                             1441.
+Df Residuals:                     551   BIC:                             1554.
+Df Model:                          25                                         
+Covariance Type:                  HC3                                         
+===========================================================================================
+                              coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -0.5934      0.252     -2.352      0.019      -1.088      -0.099
+monotonicity               -0.0057      0.137     -0.042      0.967      -0.274       0.262
+num_errors_3               -0.1234      0.117     -1.053      0.292      -0.353       0.106
+num_errors_5               -0.4249      0.117     -3.627      0.000      -0.654      -0.195
+num_errors_3_monotonic      0.0865      0.177      0.489      0.625      -0.260       0.433
+num_errors_5_monotonic      0.1498      0.189      0.793      0.428      -0.221       0.520
+age                        -0.0010      0.002     -0.411      0.681      -0.006       0.004
+education_Post-grad         0.2132      0.101      2.102      0.036       0.014       0.412
+education_Undergrad         0.1645      0.087      1.901      0.057      -0.005       0.334
+income_$50-100k            -0.1190      0.093     -1.274      0.203      -0.302       0.064
+income_>$100k              -0.0282      0.090     -0.313      0.754      -0.205       0.148
+pre_pe                      0.0860      0.031      2.792      0.005       0.026       0.146
+gender_Man                  0.0470      0.075      0.624      0.532      -0.101       0.195
+gender_Other                0.5624      0.220      2.560      0.010       0.132       0.993
+race_Asian                  0.0631      0.112      0.565      0.572      -0.156       0.282
+race_Black                  0.0064      0.113      0.057      0.955      -0.216       0.228
+race_Hispanic              -0.2725      0.123     -2.221      0.026      -0.513      -0.032
+race_Native_American       -0.1340      0.480     -0.279      0.780      -1.075       0.807
+race_Other                  0.1277      0.159      0.804      0.421      -0.183       0.439
+religion_Agnostic          -0.1594      0.123     -1.294      0.196      -0.401       0.082
+religion_Atheist           -0.1482      0.136     -1.092      0.275      -0.414       0.118
+religion_Jewish            -0.2381      0.305     -0.781      0.435      -0.835       0.359
+religion_Muslim            -0.0563      0.342     -0.165      0.869      -0.727       0.614
+religion_Nothing           -0.0469      0.114     -0.410      0.682      -0.271       0.177
+religion_Other             -0.0819      0.167     -0.492      0.623      -0.409       0.245
+religion_Roman_Catholic     0.0401      0.092      0.436      0.663      -0.140       0.221
+==============================================================================
+Omnibus:                      155.150   Durbin-Watson:                   1.697
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              651.447
+Skew:                          -1.159   Prob(JB):                    3.47e-142
+Kurtosis:                       7.660   Cond. No.                         547.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+----------------------------------------------------------------------------------------------------
+HYPOTHESIS TESTING (directional, one-tailed)
+----------------------------------------------------------------------------------------------------
+
+Raw sample means by condition:
+  μ_1nm=-0.1685, μ_1m=-0.1905; μ_3nm=-0.3158, μ_3m=-0.2276; μ_5nm=-0.5763, μ_5m=-0.4549
+
+Sample sizes per cell (nm, m):
+  1-error=(91,84), 3-error=(95,104), 5-error=(107,96)
+
+H1: More errors reduce outcome ("<")
+  μ_1=-0.1795, μ_3=-0.2717, μ_5=-0.5156
+  H1a: μ_3-μ_1 = -0.0801, SE=0.0878, t=-0.912, p=0.1810
+  H1b: μ_5-μ_3 = -0.2699, SE=0.0852, t=-3.169, p=0.0008
+  Result: NOT SUPPORTED
+
+H2: Non-monotonic errors reduce outcome more (μ_m - μ_nm > 0)
+  μ_nm(weighted)=-0.3535, μ_m(weighted)=-0.2910
+  Diff=0.0730, SE=0.0735, t=0.993, p=0.1606
+  Result: NOT SUPPORTED
+
+H3: Non-monotonic penalty larger for multiple errors (">")
+  Advantage(1)=-0.0220, Advantage(3)=0.0882, Advantage(5)=0.1215, Weighted(3,5)=0.1048
+  Excess advantage=0.1181, SE=0.1598, t=0.739, p=0.2301
+  Result: NOT SUPPORTED
+
